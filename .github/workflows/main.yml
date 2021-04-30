@@ -46,4 +46,4 @@ jobs:
           # List of tags
           tags:
             edlanio/api-bootcamp-produto:latest
-            edlanio/api-bootcamp-produto:${{ github.run_number }}
+            edlanio/api-bootcamp-produto:v${{ github.run_number }}
