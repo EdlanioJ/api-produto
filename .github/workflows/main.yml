@@ -44,6 +44,6 @@ jobs:
           # Push is a shorthand for --output=type=registry
           push: true
           # List of tags
-          tags:
+          tags: |
             edlanio/api-bootcamp-produto:latest
-            edlanio/api-bootcamp-produto:v${{ github.run_number }}
+            edlanio/api-bootcamp-produto:v${{github.run_number}}
